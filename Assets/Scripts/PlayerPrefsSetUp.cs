@@ -30,7 +30,7 @@ public class PlayerPrefsSetUp : MonoBehaviour {
         setButton.onClick.AddListener(setPref);
 
         // On button click get prefs into console
-        getButton.onClick.AddListener(setPref);
+        getButton.onClick.AddListener(getPref);
     }
 
     void setPref() {
@@ -44,7 +44,7 @@ public class PlayerPrefsSetUp : MonoBehaviour {
         int levelSelected = levelSelectGet.value + 1;
         string levelKey = "Level" + levelSelected.ToString() + "Selection";
         string optionSelected = PlayerPrefs.GetInt(levelKey).ToString();
-        Debug.Log(levelKey + ": " + optionSelected);
+        Debug.Log("Level " + levelSelected.ToString() + ": " + optionSelected);
     }
 
 }
