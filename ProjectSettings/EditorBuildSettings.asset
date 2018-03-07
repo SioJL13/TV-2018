@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SetupInventory.unity
+    guid: 8ab18a43a7fa476439a62125029e8a3c
+  - enabled: 1
+    path: Assets/Scenes/InventoryShow.unity
+    guid: e92d3a80f85db56419a90e08aad341ea
