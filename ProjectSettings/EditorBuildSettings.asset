@@ -6,13 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SetupInventory.unity
+    path: Assets/Scenes/FeedbackScene.unity
     guid: 8ab18a43a7fa476439a62125029e8a3c
   - enabled: 1
-    path: Assets/Scenes/InventoryShow.unity
+    path: Assets/Scenes/ButtonsScene.unity
     guid: e92d3a80f85db56419a90e08aad341ea
+  - enabled: 1
+    path: Assets/Scenes/VR_Scene2.unity
+    guid: 974babbf074252d4da643ebb12a0a588
+  - enabled: 1
     path: Assets/Scenes/VR_Scene.unity
     guid: 976602924483e6d4bbfa2e37b4dcdda6
-  - enabled: 1
-    path: Assets/Scenes//VR_Scene2.unity
-    guid: 974babbf074252d4da643ebb12a0a588

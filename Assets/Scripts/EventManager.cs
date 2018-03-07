@@ -61,6 +61,6 @@ public class EventManager : MonoBehaviour {
 
     IEnumerator nextLevel() {
         yield return new WaitForSeconds(2);
-        SceneManager.LoadScene("InventoryShow", LoadSceneMode.Single);
+        SceneManager.LoadScene("FeedbackButtons_Scene", LoadSceneMode.Single);
     }
 }
