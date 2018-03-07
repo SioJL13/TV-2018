@@ -39,7 +39,7 @@ public class ShowPrefs : MonoBehaviour {
 
         for (int i = 0; i < 9; i++) {
             if (selections[i] == -1) {
-                outString += "Level '" + levelNames[i] + "' was missed\n";
+                outString += "Level '" + i + "' was missed\n";
                 missedCounter++;
             }
             else {
@@ -57,7 +57,7 @@ public class ShowPrefs : MonoBehaviour {
                     bCounter++;
                 }
 
-                outString += "In level '" + levelNames[0] + "' option " + option + " was selected\n";
+                outString += "In level '" + i + "' option " + option + " was selected\n";
             }
         }
         outString += "\n";

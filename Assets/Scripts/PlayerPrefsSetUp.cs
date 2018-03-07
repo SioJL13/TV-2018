@@ -14,18 +14,6 @@ public class PlayerPrefsSetUp : MonoBehaviour {
     public Button goCredits;
 
     void Start() {
-        // Set up level selections to unselected
-        // Option A = 0, option B = 1, option Default = 2
-        // -1 is unassigned
-        PlayerPrefs.SetInt("Level1", -1);
-        PlayerPrefs.SetInt("Level2", -1);
-        PlayerPrefs.SetInt("Level3", -1);
-        PlayerPrefs.SetInt("Level4", -1);
-        PlayerPrefs.SetInt("Level5", -1);
-        PlayerPrefs.SetInt("Level6", -1);
-        PlayerPrefs.SetInt("Level7", -1);
-        PlayerPrefs.SetInt("Level8", -1);
-        PlayerPrefs.SetInt("Level9", -1);
 
         // On button click set prefs
         setButton.onClick.AddListener(setPref);
