@@ -15,7 +15,7 @@ Unity
 
 ### Hardware
 ```
-HTC VIVE System de E
+HTC VIVE System
 ```
 
 ### Installing
@@ -38,27 +38,22 @@ The rest of the resources (scenary decoration, scenary prefabs) that are needed 
 
 [www.dropboxazo.com](ropboxazo)
 ## Deployment
-The following Scene is needed to be runned first.
+The following Excecutable is needed to be run in order to test.
 ```
-Assets/Scenes/MainMenu.unity
+Assets/Excecutable.unity
 ```
 ## Authors
-- Abril Sanchez
-- Anthony Carrillo
-- Alex Perzabal
-- Gustavo Carrillo
-- Humberto Atondo
-- Eugenio Chavez
-- Emiliano Escobedo
-- Juan Carlos Sanchez
-- Jose Micalco
-- Marco Aramburo
-- Michel Lujano
-- Miguel Montoya
-- Sergio Ambriz
-- Siomara Jimenez
-- Ricardo Aragon
+| ISC                | LAD             |
+| :-----------------:|:---------------:|
+| Emiliano Escobedo    | Abril Sanchez   |
+| Eugenio Chavez     | Alex Perzabal   |
+| Humberto Atondo  | Gustavo Carrillo|
+| Juan Carlos Sanchez| Content Cell    |
+| Jose Micalco       | Marco Aramburo  |
+| Michel Lujano      | Sergio Ambriz   |
+| Miguel Montoya     | Ricardo Aragon  |
+| Siomara Jimenez    |                 | 
+
 
 ## Acknowledgments
-Thanks Wizeline for the great support and also great pizzas.
-Google great sponsor.
+Thanks Wizeline and Google for the great support and also for being great sponsors.
