@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class ShowPrefs : MonoBehaviour {
     public Text showTextStats;
+    private readonly int EVENTS_SIZE = 9;
     private string[] levelNames = {
         "Bullying",
         "Perro",
@@ -17,10 +18,10 @@ public class ShowPrefs : MonoBehaviour {
         "Silla de Ruedas"
     };
     private int[] selections;
-	// Use this for initialization
+
 	void Start () {
-        selections = new int[9];
-        for(int i = 0; i < 9; i++) {
+        selections = new int[EVENTS_SIZE];
+        for(int i = 0; i < EVENTS_SIZE; i++) {
             string level = "Level" + (i + 1).ToString();
             selections[i] = PlayerPrefs.GetInt(level);
         }
@@ -37,7 +38,7 @@ public class ShowPrefs : MonoBehaviour {
         int bCounter = 0;
         int skipCounter = 0;
 
-        for (int i = 0; i < 9; i++) {
+        for (int i = 0; i < EVENTS_SIZE; i++) {
             if (selections[i] == -1) {
                 outString += "Level '" + levelNames[i] + "' was missed\n";
                 missedCounter++;

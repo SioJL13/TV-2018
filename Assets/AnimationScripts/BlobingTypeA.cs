@@ -14,7 +14,7 @@ public class BlobingTypeA : MonoBehaviour {
         this._startRotation = this.transform.rotation;
         this.translationSpeed = 7;
         this.rotationSpeed = 5;
-}
+    }
 
     // Update is called once per frame
     void Update() {
