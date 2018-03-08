@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class EventManager : MonoBehaviour {
 
+    // Flag for current level
     private bool[] status = { true, false, false, false, false, false, false, false, false };
     private int currentLevel = 0;
     public int numberOfCarps;
@@ -24,12 +25,7 @@ public class EventManager : MonoBehaviour {
         PlayerPrefs.SetInt("Level8", -1);
         PlayerPrefs.SetInt("Level9", -1);
     }
-	
-	// Update is called once per frame
-	void Update () {
-
-    }    
-
+	  
     public void moveToNextButtons(GameObject vecinity, GameObject nextVecinity, int selectedOption) {
         int levelSelected = currentLevel + 1;
         int optionSelected = selectedOption;
