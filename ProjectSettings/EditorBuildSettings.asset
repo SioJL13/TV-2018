@@ -8,3 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VR_Buttons.unity
     guid: 97cbbad85b615694785e85436df85cac
+  - enabled: 1
+    path: Assets/Scenes/VR_ButtonsFeedback.unity
+    guid: 6ee5874c929723b47b3da1e77d734a47
