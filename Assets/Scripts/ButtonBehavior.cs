@@ -6,20 +6,45 @@ public class ButtonBehavior : MonoBehaviour {
 
     private GameObject vecinity;
     public GameObject nextVecinity;
+    public GameObject EventManagerObj;
     public int optionInt;
+    private bool touched;
 
 	void Start () {
         this.vecinity = this.transform.parent.gameObject;
+        this.touched = false;
 	}
 
+    bool isController(string name) {
+        return name == "[VRTK][AUTOGEN][Controller][CollidersContainer]" || name == "[CameraRig]";
+    }
 
     void OnTriggerEnter(Collider other) {
-        GameObject player;
+        if (isController(other.gameObject.name)) {
+            StartCoroutine(holdItem());
+        }        
+    }
 
-        if (other.gameObject.tag == "Player") player = other.gameObject;
-        else return;
+    void OnTriggerStay(Collider other) {
+        if (isController(other.gameObject.name)) {
+            if(touched) {
+                EventManager playerEvents = EventManagerObj.GetComponent<EventManager>();
+                playerEvents.moveToNextButtons(this.vecinity, this.nextVecinity, optionInt);
+            }
+        }
+    }
 
-        EventManager playerEvents = player.GetComponent<EventManager>();
-        playerEvents.moveToNextButtons(this.vecinity, this.nextVecinity, optionInt);
+    void OnTriggerExit(Collider other) {
+        if (isController(other.gameObject.name)) {
+            this.touched = false;
+            StopCoroutine(holdItem());
+        }
+    }
+
+    IEnumerator holdItem() {
+        yield return new WaitForSeconds(0.5f);
+        this.touched = true;
+        yield break;
     }
 }
+

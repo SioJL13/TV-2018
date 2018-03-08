@@ -42,6 +42,7 @@ public class EventManager : MonoBehaviour {
     }    
 
     public void moveToNextButtons(GameObject vecinity, GameObject nextVecinity, int selectedOption) {
+        print("SOMETHING");
         int levelSelected = currentLevel + 1;
         int optionSelected = selectedOption;
         string levelKey = "Level" + levelSelected.ToString();

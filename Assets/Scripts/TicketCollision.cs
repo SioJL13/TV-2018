@@ -15,8 +15,8 @@ public class TicketCollision : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision col) {
-    if (col.gameObject.name == "Charola") {
-        Application.LoadLevel ("VR_Scene2");
-    }
+        if (col.gameObject.name == "Charola") {
+            Application.LoadLevel ("VR_Scene2");
+        }
 	}
 }
