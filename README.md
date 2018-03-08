@@ -1,9 +1,7 @@
 # Project Title
-***
 This project was made as part of "Taller Vertical 2018 ISC - LAD"
 
 ## Getting Started
-***
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
@@ -41,13 +39,11 @@ The rest of the resources (scenary decoration, scenary prefabs) that are needed 
 www.dropboxazo.com/Humbi/Se/La/Come.md
 ```
 ## Deployment
-***
 The following Scene is needed to be runned first.
 ```
 Assets/Scenes/MainMenu.unity
 ```
 ## Authors
-***
 - Abril Sanchez
 - Anthony Carrillo
 - Alex Perzabal
@@ -64,9 +60,6 @@ Assets/Scenes/MainMenu.unity
 - Siomara Jimenez
 - Ricardo Aragon
 
-
-
 ## Acknowledgments
-***
 Thanks Wizeline for the great support and also great pizzas.
 Google great sponsor.
