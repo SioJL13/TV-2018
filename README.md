@@ -1,6 +1,6 @@
-VR Experience in Unity3D
 
-# Project Title
+
+# VR Experience in Unity3D
 This project was made as part of "Taller Vertical 2018 ISC - LAD"
 
 ## Getting Started
@@ -35,10 +35,6 @@ The following asssets are needed and they can be downloaded the asssets store in
 SteamVr
 VRTK 
 ```
-### Unity Resources
-The rest of the resources (scenary decoration, scenary prefabs) that are needed to generate scene of the program can be downloaded on:
-
-[www.dropboxazo.com](ropboxazo)
 ## Deployment
 The following Excecutable is needed to be run in order to test.
 ```
@@ -47,14 +43,14 @@ Assets/Excecutable.unity
 ## Authors
 | ISC                | LAD             |
 | :-----------------:|:---------------:|
-| Siomara Jimenez      | Abril Sanchez   |
-| Eugenio Chavez       | Alex Perzabal   |
-| Humberto Atondo      | Gustavo Carrillo|
-| Juan Carlos Sanchez  | Marco Aramburo  |
-| Jose Micalco         | Sergio Ambriz   |
-| Michel Lujano        | Ricardo Aragon  |
-| Miguel Montoya       |                 |
-| Emiliano Escobedo    |                 | 
+| Emiliano Escobedo    | Abril Sanchez   |
+| Eugenio Chavez     | Alex Perzabal   |
+| Humberto Atondo  | Gustavo Carrillo|
+| Juan Carlos Sanchez| Content Cell    |
+| Jose Micalco       | Marco Aramburo  |
+| Michel Lujano      | Sergio Ambriz   |
+| Miguel Montoya     | Ricardo Aragon  |
+| Siomara Jimenez    |                 | 
 
 
 ## Acknowledgments
