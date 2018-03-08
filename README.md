@@ -1,3 +1,5 @@
+VR Experience in Unity3D
+
 # Project Title
 This project was made as part of "Taller Vertical 2018 ISC - LAD"
 
@@ -21,11 +23,11 @@ HTC VIVE System
 ### Installing
 For Steam VR Support
 
-<https://www.vive.com/us/setup/>
+[https://www.vive.com/us/setup/](SteamVR)
 
 For Unity
 
-<https://store.unity.com/es/?_ga=2.194659045.954126904.1520535746-1131046318.1520013454>
+[https://store.unity.com/es/?_ga=2.194659045.954126904.1520535746-1131046318.1520013454](Unity)
 
 ### Unity Assets
 The following asssets are needed and they can be downloaded the asssets store inside Unity.
@@ -36,7 +38,7 @@ VRTK
 ### Unity Resources
 The rest of the resources (scenary decoration, scenary prefabs) that are needed to generate scene of the program can be downloaded on:
 
-<www.dropboxazo.com>
+[www.dropboxazo.com](ropboxazo)
 ## Deployment
 The following Excecutable is needed to be run in order to test.
 ```

@@ -308,7 +308,6 @@ namespace VRTK
         /// <returns>Returns `true` if the object is currently being grabbed.</returns>
         public virtual bool IsGrabbed(GameObject grabbedBy = null)
         {
-
             if (grabbingObjects.Count > 0 && grabbedBy != null)
             {
                 return (grabbingObjects.Contains(grabbedBy));
