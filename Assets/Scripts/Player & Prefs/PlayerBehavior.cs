@@ -7,6 +7,7 @@ public class PlayerBehavior : MonoBehaviour {
     public GameObject firstTent;
     public float minDistanceFromTent1;
     private bool reachedTent1;
+    public GameObject endSpawner;
 
 	void Start () {
         this.reachedTent1 = false;
@@ -18,4 +19,8 @@ public class PlayerBehavior : MonoBehaviour {
             this.reachedTent1 = true;
         }
 	}
+
+    public void goToEnd() {
+        this.transform.position = endSpawner.transform.position;
+    }
 }

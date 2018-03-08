@@ -9,6 +9,7 @@ public class EventManager : MonoBehaviour {
     private bool[] status = { true, false, false, false, false, false, false, false, false };
     private int currentLevel = 0;
     public int numberOfCarps;
+    public GameObject player;
 
     void Start () {
 
@@ -30,6 +31,7 @@ public class EventManager : MonoBehaviour {
         int levelSelected = currentLevel + 1;
         int optionSelected = selectedOption;
         string levelKey = "Level" + levelSelected.ToString();
+        print(levelKey + ": " + optionSelected);
         PlayerPrefs.SetInt(levelKey, optionSelected);
 
         if (status[currentLevel] && !status[numberOfCarps-1]) {
@@ -47,6 +49,6 @@ public class EventManager : MonoBehaviour {
 
     IEnumerator nextLevel() {
         yield return new WaitForSeconds(2);
-        SceneManager.LoadScene("VR_ButtonsFeedback", LoadSceneMode.Single);
+        this.player.GetComponent<PlayerBehavior>().goToEnd();
     }
 }
