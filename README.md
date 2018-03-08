@@ -21,11 +21,11 @@ HTC VIVE System
 ### Installing
 For Steam VR Support
 
-[https://www.vive.com/us/setup/](SteamVR)
+<https://www.vive.com/us/setup/>
 
 For Unity
 
-[https://store.unity.com/es/?_ga=2.194659045.954126904.1520535746-1131046318.1520013454](Unity)
+<https://store.unity.com/es/?_ga=2.194659045.954126904.1520535746-1131046318.1520013454>
 
 ### Unity Assets
 The following asssets are needed and they can be downloaded the asssets store inside Unity.
@@ -36,7 +36,7 @@ VRTK
 ### Unity Resources
 The rest of the resources (scenary decoration, scenary prefabs) that are needed to generate scene of the program can be downloaded on:
 
-[www.dropboxazo.com](ropboxazo)
+<www.dropboxazo.com>
 ## Deployment
 The following Excecutable is needed to be run in order to test.
 ```
