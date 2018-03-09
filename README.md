@@ -1,5 +1,3 @@
-
-
 # VR Experience in Unity3D
 This project was made as part of "Taller Vertical 2018 ISC - LAD"
 
