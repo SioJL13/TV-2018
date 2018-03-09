@@ -18,13 +18,8 @@ public class TicketCollision : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision col) {
-		print(col.gameObject.name);
-
-    if (col.gameObject.name == "Buzon")
-        {
-
+        if (col.gameObject.name == "Buzon") {
 			player.transform.position = spawner.transform.position;//(where you want to teleport
-        //SceneManager.LoadScene("InGame");
         }
 	}
 }

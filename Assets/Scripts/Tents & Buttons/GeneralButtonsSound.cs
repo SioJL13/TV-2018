@@ -5,7 +5,6 @@ using UnityEngine;
 public class GeneralButtonsSound : MonoBehaviour {
 
     private AudioSource tentSound;
-    public float volume;
 
     void Start () {
         this.tentSound = this.GetComponent<AudioSource>();
