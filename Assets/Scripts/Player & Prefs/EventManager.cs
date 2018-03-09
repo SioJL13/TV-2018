@@ -35,15 +35,27 @@ public class EventManager : MonoBehaviour {
         print(levelKey + ": " + optionSelected);
         PlayerPrefs.SetInt(levelKey, optionSelected);
 
+        BlobingTypeA[] blobsA = vecinity.gameObject.transform.parent.GetComponentsInChildren<BlobingTypeA>();
+        BlobingTypeB[] blobsB = vecinity.gameObject.transform.parent.GetComponentsInChildren<BlobingTypeB>();
+        foreach (BlobingTypeA item in blobsA)
+        {
+            Destroy(item);
+        }
+
+        foreach (BlobingTypeB item in blobsB)
+        {
+            Destroy(item);
+        }
+        vecinity.SetActive(false);
+        vecinity.SetActive(false);
+        vecinity.GetComponent<GeneralButtonsSound>().stopAudio();
+
         if (status[currentLevel] && !status[numberOfCarps-1]) {
-            vecinity.SetActive(false);
-            vecinity.GetComponent<GeneralButtonsSound>().stopAudio();
             nextVecinity.SetActive(true);
             status[currentLevel] = false;
             status[++currentLevel] = true;
         }
         else if(status[numberOfCarps-1]) {
-            vecinity.SetActive(false);
             StartCoroutine(nextLevel());
         }
     }
