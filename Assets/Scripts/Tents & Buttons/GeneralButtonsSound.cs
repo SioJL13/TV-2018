@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class GeneralButtonsSound : MonoBehaviour {
 
-    private AudioSource audioSource;
+    private AudioSource tentSound;
 
     void Start () {
-        this.audioSource = this.GetComponent<AudioSource>();
-        this.audioSource.Play();
+        this.tentSound = this.GetComponent<AudioSource>();
+        this.tentSound.Play();
     }
 	
     public void stopAudio() {
-        this.audioSource.Stop();
+        this.tentSound.Stop();
     }
 }
