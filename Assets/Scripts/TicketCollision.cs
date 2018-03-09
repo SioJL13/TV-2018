@@ -7,9 +7,12 @@ public class TicketCollision : MonoBehaviour {
 
 	public GameObject player;
 	public GameObject spawner;
+    public AudioSource audioSourceIntro;
+    private bool playingIntro;
+
 	// Use this for initialization
 	void Start () {
-
+        this.playingIntro = false;
 	}
 
 	// Update is called once per frame
@@ -19,7 +22,11 @@ public class TicketCollision : MonoBehaviour {
 
 	void OnCollisionEnter(Collision col) {
         if (col.gameObject.name == "Buzon") {
-			player.transform.position = spawner.transform.position;//(where you want to teleport
+			player.transform.position = spawner.transform.position; // (where you want to teleport)
+            if(!this.playingIntro) {
+                this.audioSourceIntro.Play();
+                this.playingIntro = true;
+            }
         }
 	}
 }
