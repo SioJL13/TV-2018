@@ -11,14 +11,13 @@ public class PlayerBehavior : MonoBehaviour {
     private Vector3 prevPosition;
     private bool isWalking;
     private bool isRunning;
-    private AudioSource audioSource;
+    public AudioSource audioSourceMovement;
     public AudioClip walkingSound;
     public AudioClip runningSound;
     private float lastCheckedTime;
 
     void Start () {
         this.reachedTent1 = false;
-        this.audioSource = this.GetComponent<AudioSource>();
         this.prevPosition = this.transform.position;
         this.lastCheckedTime = Time.time;
     }
@@ -40,23 +39,23 @@ public class PlayerBehavior : MonoBehaviour {
 
                     this.isWalking = false;
                     this.isRunning = true;
-                    this.audioSource.Stop();
-                    this.audioSource.clip = this.runningSound;
-                    this.audioSource.Play();
+                    this.audioSourceMovement.Stop();
+                    this.audioSourceMovement.clip = this.runningSound;
+                    this.audioSourceMovement.Play();
                 }
                 // If player is just walking;
                 else if (!this.isWalking) {
                     this.isWalking = true;
                     this.isRunning = false;
-                    this.audioSource.Stop();
-                    this.audioSource.clip = this.walkingSound;
-                    this.audioSource.Play();
+                    this.audioSourceMovement.Stop();
+                    this.audioSourceMovement.clip = this.walkingSound;
+                    this.audioSourceMovement.Play();
                 }
             }
             else {
                 this.isWalking = false;
                 this.isRunning = false;
-                this.audioSource.Stop();
+                this.audioSourceMovement.Stop();
             }
             this.prevPosition = this.transform.position; // Update location
             this.lastCheckedTime = Time.time;
