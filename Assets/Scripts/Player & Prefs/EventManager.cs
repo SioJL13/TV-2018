@@ -46,7 +46,6 @@ public class EventManager : MonoBehaviour {
         {
             Destroy(item);
         }
-
         vecinity.SetActive(false);
         vecinity.SetActive(false);
         vecinity.GetComponent<GeneralButtonsSound>().stopAudio();
