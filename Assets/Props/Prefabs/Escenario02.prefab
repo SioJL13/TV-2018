@@ -6808,7 +6808,6 @@ GameObject:
   - component: {fileID: 4642461081228204}
   - component: {fileID: 33394408501726870}
   - component: {fileID: 23961885671189716}
-  - component: {fileID: 114720157203498270}
   m_Layer: 0
   m_Name: polySurface6
   m_TagString: Untagged
@@ -64018,17 +64017,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   translationSpeed: 5
   rotationSpeed: 5
---- !u!114 &114720157203498270
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1376513762740982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114721268977470542
 MonoBehaviour:
   m_ObjectHideFlags: 1
