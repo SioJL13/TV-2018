@@ -8,8 +8,8 @@ public class EndFrame : MonoBehaviour {
     public int level;
     private Renderer frameRenderer;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         this.frameRenderer = this.GetComponent<Renderer>(); 
 	}
 
