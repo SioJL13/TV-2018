@@ -43,14 +43,14 @@ Assets/Excecutable.unity
 ## Authors
 | ISC                | LAD             |
 | :-----------------:|:---------------:|
-| Emiliano Escobedo    | Abril Sanchez   |
+| Siomara Jimenez    | Abril Sanchez   |
 | Eugenio Chavez     | Alex Perzabal   |
-| Humberto Atondo  | Gustavo Carrillo|
-| Juan Carlos Sanchez| Content Cell    |
-| Jose Micalco       | Marco Aramburo  |
-| Michel Lujano      | Sergio Ambriz   |
-| Miguel Montoya     | Ricardo Aragon  |
-| Siomara Jimenez    |                 | 
+| Humberto Atondo  | Gustavo Carrillo  |
+| Juan Carlos Sanchez| Marco Aramburo  |
+| Jose Micalco       | Sergio Ambriz   |
+| Michel Lujano      | Ricardo Aragon  |
+| Miguel Montoya     |                 |
+| Emiliano Escobedo  |                 | 
 
 
 ## Acknowledgments
