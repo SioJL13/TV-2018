@@ -1,3 +1,5 @@
+DISCLAIMER! All of the .psd file were uploaded using [Git Large File System (Git LFS)](https://git-lfs.github.com/). If you wish to download the project, please, install the LFS extension and the clone the repo using the command line. Otherwise, the project might not have all of the resources.
+
 # VR Experience in Unity3D
 This project was made as part of "Taller Vertical 2018 ISC - LAD"
 
@@ -21,11 +23,11 @@ HTC VIVE System
 ### Installing
 For Steam VR Support
 
-[https://www.vive.com/us/setup/](SteamVR)
+[SteamVR](https://www.vive.com/us/setup/)
 
 For Unity
 
-[https://store.unity.com/es/?_ga=2.194659045.954126904.1520535746-1131046318.1520013454](Unity)
+[Unity](https://store.unity.com/es/?_ga=2.194659045.954126904.1520535746-1131046318.1520013454)
 
 ### Unity Assets
 The following asssets are needed and they can be downloaded the asssets store inside Unity.
