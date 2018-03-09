@@ -28,3 +28,5 @@ public class TicketCollision : MonoBehaviour {
         }
 	}
 }
+
+//-170 5 25 Spawner

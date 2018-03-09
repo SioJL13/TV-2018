@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GeneralButtonsSound : MonoBehaviour {
 
-    public AudioSource tentSound;
+    private AudioSource tentSound;
     public float volume;
 
     void Start () {
