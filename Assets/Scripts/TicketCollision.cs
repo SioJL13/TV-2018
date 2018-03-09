@@ -7,7 +7,6 @@ public class TicketCollision : MonoBehaviour {
 
 	public GameObject player;
 	public GameObject spawner;
-    public AudioSource sourceAudioIntro;
 	// Use this for initialization
 	void Start () {
 
@@ -20,8 +19,7 @@ public class TicketCollision : MonoBehaviour {
 
 	void OnCollisionEnter(Collision col) {
         if (col.gameObject.name == "Buzon") {
-			player.transform.position = spawner.transform.position; //(where you want to teleport)
-            sourceAudioIntro.Play();
+			player.transform.position = spawner.transform.position;//(where you want to teleport
         }
 	}
 }
