@@ -1,3 +1,6 @@
+DISCLAIMER!
+Most of the .psd resources were uploaded to git using [Git LFS](https://git-lfs.github.com/). If you want to properly download the repo, you must install this GitHub extension and then clone the project in the command line.
+
 # VR Experience in Unity3D
 This project was made as part of "Taller Vertical 2018 ISC - LAD"
 
