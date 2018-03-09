@@ -10,6 +10,7 @@ public class EventManager : MonoBehaviour {
     private int currentLevel = 0;
     public int numberOfCarps;
     public GameObject player;
+    public GameObject playerSimulator;
 
     void Start () {
 

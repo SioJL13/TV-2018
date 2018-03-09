@@ -397,7 +397,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: add4ca5aaa228ec4eac5ebce1a6c5efc, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.02
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -721,8 +721,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4c5192971cf8d34ca53f642d86c8ddb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tentSound: {fileID: 8300000, guid: add4ca5aaa228ec4eac5ebce1a6c5efc, type: 3}
-  volume: 0.1
 --- !u!114 &114999551178418248
 MonoBehaviour:
   m_ObjectHideFlags: 1
