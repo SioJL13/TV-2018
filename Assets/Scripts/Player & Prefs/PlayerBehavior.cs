@@ -65,6 +65,7 @@ public class PlayerBehavior : MonoBehaviour {
     // Function called by the EventManager when all the stories have ended
     // It teleports the player to the end zone and calls for the summary of actions display
     public void goToEnd() {
+        endSpawner.GetComponent<EndFrameStarter>().callFrames();
         this.transform.position = endSpawner.transform.position;
     }
 }
